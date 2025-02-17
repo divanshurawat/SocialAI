@@ -10,7 +10,7 @@ The **Social Media Content Analyzer** is a tool designed to analyze social media
 ### **Method 1: Installation & Setup**
 1. Clone the repository:
    ```sh
-   git clone 
+   git clone https://github.com/divanshurawat/SocialAI
    cd socialMediaContentAnalyzer
    ```
 2. Install dependencies:
@@ -28,7 +28,7 @@ The **Social Media Content Analyzer** is a tool designed to analyze social media
 
 ### **Method 2: Access Via Live Link**
 1. Open your browser and copy-paste the below link:
-   - [Live Demo]
+   - [Live Demo] https://social-ai-liart.vercel.app/
 2. Upload an image (`jpg`, `jpeg`, `png`) or `PDF`. (Either drag & drop or select manually)
 3. View sentiment analysis, keyword frequency, and engagement metrics in the results section.
 
