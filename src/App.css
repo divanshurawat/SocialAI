@@ -1,0 +1,59 @@
+.app {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #201f1f;
+  margin-bottom: 1.5rem;
+}
+
+.dropzone {
+  border: 2px dashed #2196f3;
+  padding: 3rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.dropzone:hover {
+  border-color: #1976d2;
+  background-color: #f1f1f1;
+}
+
+.dropzone.dragging {
+  border: 2px solid #36d7b7;
+  background-color: rgba(54, 215, 183, 0.1);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(54, 215, 183, 0.3);
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.loader p {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.error {
+  color: #ff1744;
+  background-color: #ffe6e9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
